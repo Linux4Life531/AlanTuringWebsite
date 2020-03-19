@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alan Turing</title>
+    <link rel="stylesheet" href="MyStyles.css">
+</head>
+<body>
+    <header>
+        <p>Alan Turing</p>
+    </header>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Biography.html"> Biography</a>
+        <a href="Quiz.html"> Quiz</a>
+        <a href="About.html"> About</a>
+    </nav>
+    <article>
+    <h1>Alan Turing Quiz</h1>
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+    </article>
+    <footer>
+        <h4>By James Ashwood (7G)</h4>
+    </footer>
+</body>
+</html>

@@ -6,40 +6,50 @@
     <link rel="stylesheet" href="MyStyles.css">
 </head>
 <body>
-    <header>
-        <p>Alan Turing</p>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="Biography.html"> Biography</a>
-        <a href="Quiz.html"> Quiz</a>
-        <a href="About.html"> About</a>
-    </nav>
-    <article>
-    <h1>Alan Turing Quiz</h1>
-    <div id="container">
-        <div id="start">Start Quiz!</div>
-        <div id="quiz" style="display: none">
-            <div id="question"></div>
-            <div id="qImg"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+    <div class="nav-wrapper">
+        <div class="left-side">
+            <div class="nav-link-wrapper">
+                <a href="Home.html">Home</a>
             </div>
-            <div id="timer">
-                <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
+            <div class="nav-link-wrapper">
+                <a href="Biography.html">Biography</a>
             </div>
-            <div id="progress"></div>
+            <div class="nav-link-wrapper">
+                <a href="Quiz.html">Quiz</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="About.html">About</a>
+            </div>
         </div>
-        <div id="scoreContainer" style="display: none"></div>
+        <div>Alan Turing</div>
+    </div>
+    <div class="quiz-main-content-wrapper">
+        <div class="quiz-header-wrapper">
+            <h1>Alan Turing Quiz</h1>
+        </div>
+        <div id="container">
+            <div id="start">Start Quiz!</div>
+            <div id="quiz" style="display: none">
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
     </div>
     <script src="quiz.js"></script>
-    </article>
-    <footer>
-        <h4>By Linux4Life531</h4>
-    </footer>
+    <div class="footer-text">
+        <div>By Linux4Life531</div>
+    </div>
 </body>
 </html>

@@ -5,42 +5,102 @@
         <link rel="stylesheet" type="text/css" href="MyStyles.css">
     </head>
     <body>
-        <header>
-            <p>Alan Turing</p>
-        </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="Biography.html"> Biography</a>
-            <a href="Quiz.html"> Quiz</a>
-            <a href="About.html"> About</a>
-        </nav>
-        <article>
-            <h2>Who was Alan Turing?</h2>
-            <img alt="Alan Turing" src="img/Q3.png" width="300px">
-            <img alt="Alan Turing" src="img/Q4.png" width="300px">
-			<p>Alan Turing was an English mathematician and the founder of artificial intelligence and theoretical computer science. During World War 2, he was played a major part in breaking the Enigma code, which was used alot by the Germans, and leading to the English and there allies beating Nazi Germany.</p>
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="Home.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="Biography.html">Biography</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="Quiz.html">Quiz</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="About.html">About</a>
+                </div>
+            </div>
+            <div>Alan Turing</div>
+        </div>
+        <div class="bio-main-content-wrapper">
+            <div class="bio-header-wrapper">
+                <h2>Who was Alan Turing?</h2>
+            </div>
+            <div class="bio-images-wrapper">
+                <img id="myImg" src="img/Q4.png" alt="Alan Turning" width="300" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div class="bio-text-wrapper">
+                <div>Alan Turing was an English mathematician and the founder of artificial intelligence and theoretical computer science. During World War 2, he was played a major part in breaking the Enigma code, which was used alot by the Germans, and leading to the English and there allies beating Nazi Germany.</div>
+            </div>
+            <div class="bio-header-wrapper">
+                <h2>What happened in Alan Turing’s early years?</h2>
+            </div>
+            <div class="bio-text-wrapper">
+                <div>Alan Turing was born on 23 June 1912 in Maida Vale, London. He was intelligent from his very first school days. When he was 9, his headmistress from his school (St Michael's Primary School in Hastings) reported: ‘I have had clever boys and hard-working boys, but Alan is a genius’. In 1922, he moved to Hazelhurst Preparatory School where he became interested in chess. He spent hours working out complex problems on his own. When he was 13, he moved again to Sherborne School in Dorset. Although his maths teacher (Mr Randolph) explained him as a ‘genius’, this meant little to a school that worked especially on humanities and classics. His teachers would often see him doing nothing in lessons, and then get really high scores in exams.This often annoyed them.</div>
+            </div>
             <br>
-            <h2>What happened in Alan Turing’s early years?</h2>
-			<p>Alan Turing was born on 23 June 1912 in Maida Vale, London. He was intelligent from his very first school days. When he was 9, his headmistress from his school (St Michael's Primary School in Hastings) reported: ‘I have had clever boys and hard-working boys, but Alan is a genius’. In 1922, he moved to Hazelhurst Preparatory School where he became interested in chess. He spent hours working out complex problems on his own. When he was 13, he moved again to Sherborne School in Dorset. Although his maths teacher (Mr Randolph) explained him as a ‘genius’, this meant little to a school that worked especially on humanities and classics. His teachers would often see him doing nothing in lessons, and then get really high scores in exams.This often annoyed them.</p>
+            <div class="bio-header-wrapper">
+                <h2>His University Career</h2>
+            </div>
+            <div class="bio-text-wrapper">
+                <div>In 1931, Turing attended King's College, in the University of Cambridge, to study maths. At King's, he settled in much better as he succeed with both his work and social life. Turing enjoyed engurence sports. He took up rowing and became an excellent long distance runner. He also involved himself in the peace movement, joining an Anti-War Council, which encoureged chemicals and munitions workers to strike, if and when war was declared due to the rise of Hitler. Turing graduated in 1934 from King's with a first-class honours degree, and was elected a Member of King's College at the age of 22. In 1936, Turing went again to study mathematics, this time at Princeton University, in New Jersey, where he got his Ph.D. in 1938. During his time at Princeton, he developed the motive of a ‘universal computing machine’ that could solve complex calculations, and make life easier. This would now become known as the Turing machine, which was the basis today's modern digital computer. Turing also studied cryptology (the study of codes and cyphers which can be used to send secret messages) and built three quaters of the stages of an 'electro-mechanical binary multiplier'.</div>
+            </div>
             <br>
-            <h2>His university career</h2>
-            <p>In 1931, Turing attended King's College, in the University of Cambridge, to study maths. At King's, he settled in much better as he succeed with both his work and social life. Turing enjoyed engurence sports. He took up rowing and became an excellent long distance runner. He also involved himself in the peace movement, joining an Anti-War Council, which encoureged chemicals and munitions workers to strike, if and when war was declared due to the rise of Hitler. Turing graduated in 1934 from King's with a first-class honours degree, and was elected a Member of King's College at the age of 22. In 1936, Turing went again to study mathematics, this time at Princeton University, in New Jersey, where he got his Ph.D. in 1938. During his time at Princeton, he developed the motive of a ‘universal computing machine’ that could solve complex calculations, and make life easier. This would now become known as the Turing machine, which was the basis today's modern digital computer. Turing also studied cryptology (the study of codes and cyphers which can be used to send secret messages) and built three quaters of the stages of an 'electro-mechanical binary multiplier'.
-            </p>
-            <br>
-            <h2>What did he do?</h2>
-            <p>In 1939, Turing was asked to join the Government Codes and Cypher School which was a British code-breaking organisation. This was moved to Bletchley Park when war was declared against Germany on 3 September. Turing’s most famous achievement at Bletchley was cracking the ‘Enigma’ code. The Enigma was a machine used by the Germans to send messages securely. With his fellow code breaker, Gordon Welchman, Turing developed the Bombe, a machine which from late 1940, was decoding all messages sent by the Enigma machines and therefore let the English read them.
-            </p>
-            <h2>Famous Quotes by Alan Turing</h2>
+            <div class="bio-header-wrapper">
+                <h2>What did he do?</h2>
+            </div>
+            <div class="bio-text-wrapper">
+                <div>In 1939, Turing was asked to join the Government Codes and Cypher School which was a British code-breaking organisation. This was moved to Bletchley Park when war was declared against Germany on 3 September. Turing’s most famous achievement at Bletchley was cracking the ‘Enigma’ code. The Enigma was a machine used by the Germans to send messages securely. With his fellow code breaker, Gordon Welchman, Turing developed the Bombe, a machine which from late 1940, was decoding all messages sent by the Enigma machines and therefore let the English read them.</div>
+            </div>
+            <div class="bio-header-wrapper">
+                <h2>Famous Quotes by Alan Turing</h2>
+            </div>
+            <div class="bio-list-wrapper">
             <ul>
-                <li>I propose to consider the question, 'Can machines think?</li>
-                <li>We can only see a short distance ahead, but we can see plenty there that needs to be done.</li>
-                <li>Science is a differential equation. Religion is a boundary condition.</li>
+                <div class="bio-list-element-wrapper">
+                    <li>I propose to consider the question, 'Can machines think?</li>
+                </div>
+                <div class="bio-list-element-wrapper">
+                    <li>We can only see a short distance ahead, but we can see plenty there that needs to be done.</li>
+                </div>
+                <div class="bio-list-element-wrapper">
+                    <li>Science is a differential equation. Religion is a boundary condition.</li>
+                </div>
             </ul>
-            <h2>Useful Link</h2>
-            <a href="https://www.turing.ac.uk/" rel="noopener noreferre"" target="_blank"> Alan Turing Foundation</a>
-        </article>
-        <footer>
-            <h4>By Linux4Life</h4>
-        </footer>
+            </div>
+            <div class="bio-header-wrapper">
+                <h2>Useful Link</h2>
+            </div>
+            <div class="bio-link-wrapper">
+                <a href="https://www.turing.ac.uk/" rel="noopener noreferre"" target="_blank"> Alan Turing Foundation</a>
+            </div>
+        </div>
+        <div class="footer-text">
+            <div>By James Ashwood</div>
+        </div>
+
+        <script>
+            var modal = document.getElementById('myModal');
+
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+        </script>
     </body>
 </html>

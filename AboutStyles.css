@@ -1,0 +1,334 @@
+body {
+    font-family: Arial,freesans,sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    padding: 18px;
+    background-color: blue;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: yellow;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    color: red;
+}
+
+.right-side {
+    color: rgb(34, 238, 34);
+}
+
+.about-main-content-wrapper {
+    text-align: center;
+    align-items: center;
+    color: #5a5a5a;
+    padding: 18px;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.about-text-wrapper {
+    font-size: 20px;
+    color: #2a2a2a;
+}
+
+.about-header-wrapper {
+    font-size: 20px;
+    color: #3a3a3a;
+}
+
+.footer-text {
+    text-transform: uppercase; 
+    color: yellow;
+    text-align: center;
+    padding: 18px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+
+
+@media screen and (max-width: 790px) {
+    body {
+        font-family: Arial,freesans,sans-serif;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #3a3a3a;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        padding: 18px;
+        background-color: blue;
+        width: 70%;
+        margin: 0 auto;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .left-side {
+        display: flex;
+    }
+
+    .nav-wrapper > .left-side > div{
+        margin-right: 20px;
+        font-size: 0.9em;
+        text-transform: uppercase;
+    }
+
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .nav-link-wrapper a {
+        color: yellow;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: red;
+    }
+
+    .right-side {
+        color: rgb(34, 238, 34);
+    }
+
+    .about-main-content-wrapper {
+        text-align: center;
+        align-items: center;
+        color: #5a5a5a;
+        padding: 18px;
+        background-color: white;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    .about-text-wrapper {
+        font-size: 20px;
+        color: #2a2a2a;
+    }
+    
+    .about-header-wrapper {
+        font-size: 20px;
+        color: #3a3a3a;
+    }
+
+    .footer-text {
+        text-transform: uppercase; 
+        color: yellow;
+        text-align: center;
+        padding: 18px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    body {
+        font-family: Arial,freesans,sans-serif;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #3a3a3a;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 18px;
+        background-color: blue;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .left-side {
+        display: flex;
+    }
+
+    .nav-wrapper > .left-side > div{
+        margin-right: 20px;
+        font-size: 0.9em;
+        text-transform: uppercase;
+    }
+
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .nav-link-wrapper a {
+        color: yellow;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: red;
+    }
+
+    .right-side {
+        color: rgb(34, 238, 34);
+    }
+
+    .about-main-content-wrapper {
+        text-align: center;
+        align-items: center;
+        color: #5a5a5a;
+        padding: 18px;
+        background-color: white;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    .about-text-wrapper {
+        font-size: 20px;
+        color: #2a2a2a;
+    }
+    
+    .about-header-wrapper {
+        font-size: 20px;
+        color: #3a3a3a;
+    }
+
+    .footer-text {
+        text-transform: uppercase; 
+        color: yellow;
+        text-align: center;
+        padding: 18px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-family: Arial,freesans,sans-serif;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #3a3a3a;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        padding: 18px;
+        background-color: blue;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .left-side {
+        display: flex;
+    }
+
+    .nav-wrapper > .left-side > div{
+        margin-right: 20px;
+        font-size: 0.9em;
+        text-transform: uppercase;
+    }
+
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .nav-link-wrapper a {
+        color: yellow;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: red;
+    }
+
+    .right-side {
+        color: rgb(34, 238, 34);
+    }
+
+    .about-main-content-wrapper {
+        text-align: center;
+        align-items: center;
+        color: #5a5a5a;
+        padding: 18px;
+        background-color: white;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    .about-text-wrapper {
+        font-size: 20px;
+        color: #2a2a2a;
+    }
+    
+    .about-header-wrapper {
+        font-size: 20px;
+        color: #3a3a3a;
+    }
+
+    .footer-text {
+        text-transform: uppercase; 
+        color: yellow;
+        text-align: center;
+        padding: 18px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-color: blue;
+    }
+}
